@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .divImage {
+  width: 50vw;
+  height: 100vh;
+  background-image: url(../image/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .divCalc {
+  background-color: rgba(223, 12, 12, 0.904);
+  width: 50vw;
+  height: 100vh;
+}
+
+.container .divCalc .divBarbecueMeter h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(223, 12, 12, 0.904);
+}
+
+.container .divCalc .divBarbecueMeter button {
+  color: rgba(223, 12, 12, 0.904);
+}
+
+.container .divCalc .divBarbecueMeter button:hover {
+  color: rgba(54, 255, 4, 0.904);
+}
+/*# sourceMappingURL=style.css.map */
